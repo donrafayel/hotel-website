@@ -33,14 +33,14 @@
       <div class="contactcontainer">
         <h3><span class="coralcontact">Contact</span> Us</h3>
         <p class="contactp">Please Fill Out The Form Below To contact Us</p>
-        <form action="process.php">
+        <form name="contact" method="POST" data-netlify="true">
           <div class="namediv">
             <label for="name">Name</label>
             <input type="text" name="name" id="name" />
           </div>
           <div class="namediv">
             <label for="email">Email</label>
-            <input type="text" email="email" id="email" />
+            <input name="email" type="text" email="email" id="email" />
           </div>
           <div class="namediv">
             <label for="message">Message</label>
