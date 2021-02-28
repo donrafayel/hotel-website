@@ -1,0 +1,308 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: auto;
+  max-width: 1800px;
+  overflow: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8em;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.style {
+  color: white;
+  background-color: maroon;
+  overflow: auto;
+}
+.style a {
+  color: white;
+}
+.logo {
+  float: left;
+  padding: 20px;
+}
+.style ul {
+  list-style: none;
+  float: right;
+}
+.style ul li {
+  float: left;
+}
+.style ul li a {
+  display: block;
+  padding: 20px;
+  text-align: center;
+}
+.style ul li a:hover {
+  color: darkred;
+  background-color: black;
+  font-size: 20px;
+}
+.div1 {
+  background: url("../image.jpg/pexels-chan-walrus-941861.jpg") no-repeat
+    center/cover;
+  height: 500px;
+}
+.div3 {
+  color: white;
+  text-align: center;
+  padding-top: 150px;
+}
+.div3 h1 {
+  font-size: 60px;
+  line-height: 1.5em;
+}
+.enjoy {
+  color: orangered;
+}
+.holyday {
+  color: gray;
+}
+.div3 p {
+  color: white;
+  font-size: 27px;
+  line-height: 1.7em;
+  padding: 10px 10px;
+  font: bold;
+  display: inline;
+  background-color: maroon;
+}
+.aclass {
+  display: inline-block;
+  font-size: 35px;
+  padding: 10px 10px;
+  font: bold;
+  display: inline;
+  background-color: black;
+  color: antiquewhite;
+}
+.aclass:hover {
+  color: black;
+  background-color: maroon;
+}
+.section {
+  height: 400px;
+}
+.image {
+  background: url("../image.jpg/pexels-pixabay-53464.jpg") no-repeat
+    center/cover;
+  width: 50%;
+  float: left;
+  height: 100%;
+}
+.content {
+  font-family: Arial, Helvetica, sans-serif;
+  float: right;
+  width: 50%;
+  height: 100%;
+  color: white;
+  background-color: black;
+  padding: 50px 30px;
+  text-align: center;
+  overflow: hidden;
+}
+.paragraph {
+  padding-top: 40px;
+}
+.readmore {
+  font: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+}
+.history {
+  color: coral;
+}
+.text {
+  font-size: 42px;
+}
+.readmore:hover {
+  color: black;
+  background-color: maroon;
+}
+.box {
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+  height: 400px;
+}
+.box i {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer {
+  text-align: center;
+  padding-top: 30px;
+  color: white;
+  background-color: black;
+}
+#free:hover {
+  color: coral;
+  background-color: maroon;
+}
+#great:hover {
+  color: white;
+  background-color: black;
+}
+.indexclear {
+  clear: both;
+}
+/* About page */
+/* 1st section */
+/* .navboss {
+  padding: 20px 0;
+  background-color: maroon;
+  font-size: 30px;
+}
+.navboss:hover {
+  font-size: 35px;
+} */
+.aboutcontainer {
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  padding-top: 40px;
+  margin-left: 0;
+}
+.current {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+}
+.now {
+  color: coral;
+}
+.lorem {
+  font-size: 20px;
+}
+.rightimage {
+  border-radius: 70%;
+}
+/*section 2*/
+.h5 {
+  text-align: center;
+  font-size: 40px;
+  color: maroon;
+  font: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.span5 {
+  color: black;
+}
+.section2 {
+  background: url("../image.jpg/pexels-jhency-xang-3789045.jpg") no-repeat
+    center/cover;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+.box_1 {
+  width: 90%;
+  height: 50%;
+  background-color: coral;
+  display: flex;
+  margin: 1rem auto;
+  padding: 1rem;
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+p {
+  width: 80%;
+}
+.title {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+}
+.img_holder {
+  display: inline-block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  border-radius: 100px;
+}
+.section2 p {
+  display: inline-block;
+}
+img {
+  height: 10rem;
+}
+.indexclearabout {
+  background-color: black;
+  margin-right: 0;
+}
+/* contact page */
+.section2 {
+  height: 600px;
+  background: url("../image.jpg/pexels-jhency-xang-3789045.jpg") no-repeat
+    center/cover;
+}
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  padding: 25px 20px;
+}
+.coralcontact {
+  color: coral;
+}
+.contactp {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: maroon;
+  padding: 10px 20px;
+}
+.namediv {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+.namediv label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 20px;
+  font: bold;
+}
+.namediv input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+}
+.namediv textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid gray;
+  height: 150px;
+}
+.namediv input:focus {
+  outline: none;
+  border-color: coral;
+}
+.namediv textarea:focus {
+  outline: none;
+  border-color: coral;
+}
+.submit {
+  padding: 5px 15px;
+  margin-left: 20px;
+  background-color: black;
+  color: white;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submit:hover {
+  color: black;
+  background-color: maroon;
+}
+#sectionicon5 {
+  color: white;
+  background-color: black;
+}
